@@ -1,9 +1,9 @@
-"""vsm.py implements a toy search engine to illustrate
-the vector space model for documents.
+"""vsm.py implements a toy search engine to illustrate the vector
+space model for documents.
 
-It asks you to enter a query, and then returns all documents matching
-the query, in decreasing order of cosine similarity, according to the
-vector space model."""
+It asks you to enter a search query, and then returns all documents
+matching the query, in decreasing order of cosine similarity,
+according to the vector space model."""
 
 from collections import defaultdict
 import math
